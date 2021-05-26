@@ -29,7 +29,6 @@ while True:
                               side='buy', 
                               price=float(limit['price'])+2, 
                               size='0.007')
-            order
         except Exception as e:
             print('Error placing order')
         
