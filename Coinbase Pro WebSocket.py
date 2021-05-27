@@ -1,19 +1,14 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
 
 
 import time, cbpro
 
+# Simple WebSocket
 wsc = cbpro.WebsocketClient(url="wss://ws-feed.pro.coinbase.com",
                                 products="ADA-USD",
                                 channels=["ticker"])
 
 
-# In[ ]:
-
-
+# WebSocket Class Example
 class myWebsocketClient(cbpro.WebsocketClient):
     def on_open(self):
         self.url = "wss://ws-feed.pro.coinbase.com/"
@@ -35,4 +30,3 @@ while (wsClient.message_count < 50):
     print ("\nmessage_count =", "{} \n".format(wsClient.message_count))
     time.sleep(1)
 wsClient.close()
-
