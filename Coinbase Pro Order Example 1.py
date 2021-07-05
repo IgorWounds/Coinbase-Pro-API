@@ -16,13 +16,13 @@ while True:
     try:
         ticker = c.get_product_ticker(product_id='BTC-USD')
     except Exception as e:
-        print('Error obtaining ticker data')
+        print(f'Error obtaining ticker data: {e}')
     
     if float(ticker['price']) >= 38500.00:
         try:
             limit = c.get_product_ticker(product_id='ETH-USD')
         except Exception as e:
-            print('Error obtaining ticker data')
+            print(f'Error obtaining ticker data: {e}')
         
         try:
             order=auth_client.place_limit_order(product_id='ETH-USDT', 
@@ -30,7 +30,7 @@ while True:
                               price=float(limit['price'])+2, 
                               size='0.007')
         except Exception as e:
-            print('Error placing order')
+            print(f'Error placing order: {e}')
         
         sleep(2)
         
@@ -38,7 +38,7 @@ while True:
             check = order['id']
             check_order = auth_client.get_order(order_id=check)
         except Exception as e:
-            print('Unable to check order. It might be rejected.')
+            print(f'Unable to check order. It might be rejected. {e}')
         
         if check_order['status'] == 'done':
             print('Order placed successfully')
