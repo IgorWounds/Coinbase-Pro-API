@@ -1,10 +1,13 @@
 # Coinbase-Pro-API
 
-Coinbase Pro API - Algotrading101 blog
+[Coinbase Pro API](https://algotrading101.com/learn/coinbase-pro-api-guide/) - Algotrading101 blog
+
+## Table of contents
+
+<ol><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#what-is-coinbase-pro-api">What is Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#is-coinbase-pro-api-free">Is Coinbase Pro API free?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#pros">Why should I use Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#cons">Why shouldn’t I use the Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#coinbase-and-coinbase-pro">Are Coinbase and Coinbase Pro the same?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#coinbase-vs-coinbase-pro">Is Coinbase Pro API better than Coinbase API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#countries">Is Coinbase Pro API available in my country?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#alternatives">What are the alternatives to using the Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#clients">What clients are available for the Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#start">How to get started with Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#trading-pairs">How to get trading pairs info with Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#price-data">How to get Price Data with Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#historical-data">How to get historical data with Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#20sma">How to access technical indicators such as the 20 SMA with the Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#order-book">How to get Order Book data with Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#trades-data">How to get Trades data with Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#websocket">How to use Coinbase Pro WebSockets?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#example1">How to execute a trade on ETH when BTC hits a certain price with the Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#example2">How to execute an ETH trade when BTC moves 5% in the last 5 minutes with the Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#cancel-order">How to cancel orders with Coinbase Pro API?</a></li><li><a href="https://algotrading101.com/learn/coinbase-pro-api-guide/#full-code">Full code</a></li></ol>
 
 -----------
-Info
------------
+## Info
 
 | Author | Igor Radovanovic
 --- | ---
